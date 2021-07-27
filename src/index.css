@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rosybrown;
 }
 
 code {
@@ -16,4 +17,10 @@ code {
   padding-top: 5rem;
   margin: 0 auto;
   width: 600px;
+}
+.rm {
+  background: red;
+  border-radius: 50%;
+  color: wheat;
+  border: none;
 }
