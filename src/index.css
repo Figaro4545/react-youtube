@@ -24,3 +24,6 @@ code {
   color: wheat;
   border: none;
 }
+.done {
+  text-decoration: line-through;
+}
