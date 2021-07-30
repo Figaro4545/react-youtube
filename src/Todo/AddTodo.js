@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import PropTypes from 'prop-types'
 
+
+
 function AddTodo({onCreate}) { // для параметра onCreate импортируем PropTypes
     const [value, setValue] = useState('')
 
@@ -12,6 +14,7 @@ function AddTodo({onCreate}) { // для параметра onCreate импор�
         //если индекс пустой - то ничего не будем делать
         if(value.trim()) {  // удаляем лишние пробелы
             onCreate(value) // придумываем метод для передачи, его пердадим как параметр AddTodo
+            setValue('')
 
         }
 
